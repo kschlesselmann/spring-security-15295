@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-security-15295
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri:
+      client:
+        registration:
+          test:
+            client-id:
+            client-secret:
+            authorization-grant-type: client_credentials
+        provider:
+          test:
+            issuer-uri:
